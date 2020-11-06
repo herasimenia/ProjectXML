@@ -1,0 +1,21 @@
+{
+	"name": "projectxml",
+	"version": "1.0.0",
+	"description": "Скачивание и дальнейшая обработка XML- файла",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"fix-memory-limit": "cross-env LIMIT=8000 increase-memory-limit"
+	},
+	"author": "Aleh Herasimenia",
+	"license": "ISC",
+	"devDependencies": {
+		"figlet": "^1.5.0",
+		"minify-xml": "^2.1.2",
+		"process-time": "^1.0.2",
+		"request": "^2.88.2",
+		"through2": "^4.0.2",
+		"zlib": "^1.0.5"
+	},
+	"dependencies": {}
+}
